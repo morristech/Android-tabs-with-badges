@@ -56,7 +56,7 @@ public class SecondFragment extends Fragment {
             MainActivity acivity = (MainActivity) getActivity();
 
             Integer tabBadge = acivity.getTabBadge(BADGE_INDEX);
-            BadgeSpan badgeSpan = acivity.getBadgeSpanByType(BadgeType.BRIGHT);
+            BadgeSpan badgeSpan = acivity.getBadgeSpanByType(BadgeType.FAINT);
             Badge badge = new Badge(tabBadge != null ? tabBadge - 1 : 0, badgeSpan);
 
             acivity.setTabBadge(BADGE_INDEX, badge);

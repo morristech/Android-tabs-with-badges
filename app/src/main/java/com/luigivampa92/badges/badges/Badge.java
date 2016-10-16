@@ -16,7 +16,11 @@ public class Badge {
 
         isActual = false;
         if (number != null && number > 0) {
-            badgeText = BADGE_WHITESPACE + (number < 100 ? String.valueOf(number) : TEXT_LIMIT) + BADGE_WHITESPACE;
+            badgeText = BADGE_WHITESPACE +
+                    (number < 10 ? BADGE_WHITESPACE : "") +
+                    (number < 100 ? String.valueOf(number) : TEXT_LIMIT) +
+                    (number < 10 ? BADGE_WHITESPACE : "") +
+                    BADGE_WHITESPACE;
             isActual = true;
         }
     }
