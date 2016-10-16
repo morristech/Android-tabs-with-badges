@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- I used only one TextView here. It's not very cool actually, -->
+    <!-- since your tab title will shift to the left after the badge is attached to it. -->
+    <!-- Originally I wanted to use one TextView for title, and another - for badge, -->
+    <!-- but I didn't find a way to do that without corrupting a span -->
+    <!-- I'll be grateful, if you show me the Truth -->
+    <TextView
+        android:id="@+id/tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

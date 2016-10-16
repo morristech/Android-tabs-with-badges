@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="app_bar_size">50dp</dimen>
+    <dimen name="button_margin">30dp</dimen>
+    <dimen name="badge_text_size">10sp</dimen>
+</resources>

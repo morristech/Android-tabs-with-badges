@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- style for our TabLayout -->
+    <!-- Note that we do not set TextAppearance here, because we use custom layout for tab -->
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">1dp</item>
+        <item name="tabIndicatorColor">@color/colorWhite</item>
+        <item name="tabSelectedTextColor">@color/colorWhite</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
+</resources>
